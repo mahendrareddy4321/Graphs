@@ -29,5 +29,17 @@ public:
             }
         }
         return false;
+        /*
+        if(j1+j2<t)
+        {
+            return false;
+        }
+        int g=__gcd(j1,j2);
+        if((t%min(j1,j2))%g)
+        {
+            return false;
+        }
+        return true;
+        */
     }
 };
